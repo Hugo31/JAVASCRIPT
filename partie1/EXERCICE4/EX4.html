@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +7,24 @@
     <title>ex 4</title>
 </head>
 <body>
-    <form>
-        <h1>Formulaire </h1>
-        <p>
-            <label for="nom">Nom</label> :
-            <input type="text" name="nom" id="nom" required>
-            
-        </p>
-        <p>
-            <label for="prenom">Prenom</label> :
-            <input type="text" name="prenom" id="prenom" required>
-            
-        </p>
-        <p>
-            <label for="ville">Ville</label> :
-            <input type="text" name="ville" id="ville" required>
-            
-        </p>
-        
-         <input type="button" value="valider" id="clickbutton" > 
+    <h1>Formulaire </h1>
+    <form method="POST" action="#">
+        <div>
+            <label for="lastname">Nom :</label> 
+            <input type="text" name="lastname" id="lastname" required>
+        </div>
+        <div>
+            <label for="firstname">Prenom :</label> 
+            <input type="text" name="firstname" id="firstname" required>
+        </div>
+        <div>
+            <label for="city">Ville :</label>
+            <input type="text" name="city" id="city" required>  
+        </div>
 
-        
+         <input type="button" value="valider" id="clickButton" > 
+
+    </form>
 
     <script src="ASSETS/JS/JS4.js"></script>
 </body>
