@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ex6</title>
 </head>
+
 <body>
+    <h1>Formulaire </h1>
+    <form method="POST" action="#">
+        <div>
+            <label for="feetSize">Votre pointure ?</label>
+            <input type="text" name="feetSize" id="feetSize" required>
+        </div>
+        <br>
+        <div>
+            <label for="birthDate">Votre année de naissance ? :</label>
+            <input type="text" name="birthDate" id="birthDate" required>
+        </div>
+
+        <input type="button" value="valider" id="clickButton">
+
+    </form>
 
     <script src="assets/EX6.js"> </script>
+
 </html>
