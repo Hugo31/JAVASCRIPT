@@ -1,0 +1,187 @@
+header{
+    background-size:cover;
+    background-image: url(../image/dromad.jpg);
+    height: 350px;
+    display: flex;
+    position: relative;
+}
+h1{
+    font-family: serif;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+
+/*barre de navigation*/
+nav{
+background-color: #ecd8bf;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+height: 45px;
+cursor: pointer;
+}
+
+ul{ 
+    display: flex;
+    margin: 0px;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+}
+input{
+    border-radius: 10px;
+}
+
+/*texte d'accueil*/
+#text{
+    display: flex;
+    flex-direction: column;
+    background-color:#dde7f4;
+    margin:10px 110px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 23px; 
+}
+
+#liste {
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 2px;
+}
+/*3 bloc exercice 4*/
+
+#contenaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #e3d7cc;
+    
+}
+
+#line1box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+    width: 30%;
+}
+/*titre NY*/
+#line1box1-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* image NY*/
+#line1box1-2{
+background-repeat: no-repeat;
+width:100%;
+height:300px ;
+border-radius: 10px;
+
+}
+
+/*texte NY*/
+#line1box1-3{
+    font-size: 15px;
+    width:100%;
+    height:90px ;
+    text-align: justify;
+}
+
+#line1box2{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;    
+    align-items: center;
+    width: 30%;
+}
+
+/*titre amsterdam*/
+#line1box2-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+/*photo amsterdam*/
+#line1box2-2{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    }
+
+    /*texte Amsterdam*/
+#line1box2-3{
+    font-size: 15px;
+    width:100%;
+    height:90px ;
+    text-align: justify;
+}
+
+#line1box3{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;   
+    box-sizing: border-box;
+    width: 30%;
+    align-items: center;
+}
+
+/*titre Zurich*/
+#line1box3-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+/*photo Zurich*/
+#line1box3-2{
+    background-repeat: no-repeat;
+      width: 100%;
+      height: 300px;
+      margin-left :10px ;
+      border-radius: 10px;
+    }
+
+/*texte Zurich*/
+#line1box3-3{
+    font-size: 15px;
+    width:100%;
+    height:90px ;
+    text-align: justify;
+}
+
+/*Responsive*/
+#iconBurger{
+    display: none;
+}
+  
+@media screen and (max-width: 480px){
+    #iconBurger{
+      display: block;
+    }
+    nav ul li a {
+        display: none;
+    }
+    #contenaire{
+        flex-direction: column;
+    }
+    body {
+        background-color: rgb(20, 19, 19);
+    }
+}
