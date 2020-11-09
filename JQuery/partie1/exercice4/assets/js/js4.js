@@ -1,6 +1,6 @@
 $(function(){
     //$('elementCiblé').css('propriétéCSS','valeur'); 
-    $('#firstText').empty() ;
-    $('#secondText').remove() ;
+    $('#firstText').empty() ;//vider le texte
+    $('#secondText').remove() ;//supprmer le texte
     
 })    
