@@ -1,0 +1,14 @@
+body{
+    background-image: url(../img/school.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: red;
+}
+
+#button{
+    height: 30px;
+}
